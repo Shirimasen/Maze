@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="utf-8">
+		
+		<title>Maze Generator</title>
+		
+		<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400" rel="stylesheet">
+		<link href="main.css" rel="stylesheet" type="text/css">
+	</head>
+	
+	<body>
+		<div class="menu">
+			<input id="cols" type="number" placeholder="Columns">
+			<input id="rows" type="number" placeholder="Rows">
+			<input id="cell" type="number" placeholder="Cell Size">
+			<input id="wall" type="number" placeholder="Wall Size">
+			<input id="cellColor" type="color" value="#212121">
+			<input id="wallColor" type="color" value="#fafafa">
+			
+			<div class="checkbox">
+				<input id="animate" type="checkbox" checked>
+				<label for="animate">Animate</label>
+			</div>
+			
+			<button id="new" type="button">New</button>
+			<button id="custom" type="button">Custom</button>
+			<button id="generate" type="button" style="display: none">Generate</button>
+			<button id="save" type="button">Save</button>
+		</div>
+		
+		<div id="maze"></div>
+		
+		<script src="p5.min.js"></script>
+		<script src="graph.js"></script>
+		<script src="maze.js"></script>
+		<script src="main.js"></script>
+	</body>
+</html>
