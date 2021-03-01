@@ -1,2 +1,2 @@
 # Maze
-https://shirimasen.github.io/Maze/
+https://badgyro.github.io/Maze/
